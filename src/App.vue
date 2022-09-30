@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
   <HeaderComponent/>
   <BodyComponent/>
   <FooterComponent/>
@@ -7,9 +6,9 @@
 
 <script>
 
-import HeaderComponent from'./components/HeaderComponent'
-import BodyComponent from './components/BodyComponent'
-import FooterComponent from './components/FooterComponent'
+import HeaderComponent from'./components/HeaderComponent.vue'
+import BodyComponent from './components/BodyComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 export default {
   name: 'App',
   components: {
