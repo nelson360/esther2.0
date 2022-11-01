@@ -3,6 +3,8 @@ import HeaderComponent from '/src/components/HeaderComponent.vue'
 import AboutComponent from '/src/components/AboutComponent.vue'
 import QualificationComponent from '/src/components/QualificationComponent.vue'
 import ContactComponent from '/src/components/ContactComponent.vue'
+import WhyUs from '/src/components/WhyUs.vue'
+import ServicesComponent from '/src/components/ServicesComponent.vue'
 
 const routes = [
     {
@@ -33,7 +35,13 @@ const routes = [
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: ContactComponent
-    }
+    },
+    {
+      path:'/ServicesComponent',
+      component: ServicesComponent
+    },
+    {path:'/WhyUs',
+    component: WhyUs}
   
   ]
   
