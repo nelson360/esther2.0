@@ -72,9 +72,14 @@
 </body>
 </template>
 
-<style>
+<style scoped>
+li{
+    color: black;
+}
+</style>
+<script>
 export default {
     name: 'WhyUs',
 
 }
-</style>
+</script>

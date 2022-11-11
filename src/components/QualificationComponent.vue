@@ -9,7 +9,8 @@
     <p class="vactitle">RE:TNV/012/JUNE/15-TRAINED NURSES VACANCY(5)</p>
     <hr>
     <p class="butita">
-        Diploma in any of the following Disciplines:<br> Kenya Registered Community Health Nursing, Kenya Registered Nursing; Kenya Registered Midwifery, Kenya Registered Nursing/Midwifery or Kenya Registered Nursing/Mental Health and Psychiatry from a recognized institution;
+        Diploma in any of the following Disciplines:<br> 
+        Kenya Registered Community Health Nursing, Kenya Registered Nursing; Kenya Registered Midwifery, Kenya Registered Nursing/Midwifery or Kenya Registered Nursing/Mental Health and Psychiatry from a recognized institution;
         Registration Certificate issued by the Nursing Council of Kenya;
         Valid practicing license from the Nursing Council of Kenya;
         Certificate in computer application skills from a recognized institution
@@ -95,6 +96,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'QualificationComponent',
 }
