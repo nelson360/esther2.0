@@ -6,19 +6,19 @@
 <section class="contact">
   <form>
     <div class="form-group">
-      <label for="exampleFormControlInput1">FULL NAME</label>
+      <label for="exampleFormControlInput1">FULL NAME</label><br>
       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="FULL NAME">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlInput1">CONTACT NUMBER</label>
+      <label for="exampleFormControlInput1">CONTACT NUMBER</label><br>
       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="CONTACT NUMBER">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
+      <label for="exampleFormControlInput1">Email address</label><br>
       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlSelect1">COUNTY</label>
+      <label for="exampleFormControlSelect1">COUNTY</label><br>
       <select class="form-control" id="exampleFormControlSelect1">
         <option>MOMBASA</option>
         <option>KISUMU</option>
@@ -29,7 +29,8 @@
     </div>
     
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">DETAILS</label>
+      <label for="exampleFormControlTextarea1">DETAILS</label><br>
+      
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <button class="btn btn-primary" type="submit">Submit form</button>

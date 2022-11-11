@@ -1,22 +1,28 @@
 <template>
-  <HeaderComponent/>
-  <BodyComponent/>
-  <FooterComponent/>
+<HomeComponent />
+
+    <div id="nav">
+        <v-app>
+            <RouterView />
+        </v-app>
+
+    </div>
+
 </template>
 
 <script>
-
-import HeaderComponent from'./components/HeaderComponent.vue'
-import BodyComponent from './components/BodyComponent.vue'
-import FooterComponent from './components/FooterComponent.vue'
+import HomeComponent from './components/HeaderComponent.vue'
 export default {
-  name: 'App',
-  components: {
-    HeaderComponent, BodyComponent, FooterComponent
-  }
+    name: 'App',
+    components: {
+        HomeComponent,
+    }
 }
 </script>
 
 <style>
-
+nav {
+    position: relative;
+    height: top;
+}
 </style>

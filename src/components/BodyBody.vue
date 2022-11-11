@@ -1,9 +1,9 @@
-<template>
+<template scoped>
     /* eslint-disable */
     <p>.<img alt="pop" src="/pic/logo.png">
     </p>
     
-    <body class="body d-flex flex-column min-vh-100">
+  
         <main class="main">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
@@ -56,10 +56,8 @@
         <section class="">
     
         </section>
-        <ar class="">
-            <marquee class="">index</marquee>
-        </ar>
-    </body>
+     
+   
     
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
@@ -115,7 +113,7 @@
     }
     </script>
     
-    <style>
+    <style >
     .firstimage3 {
         border: 2px;
         border-radius: 15%;

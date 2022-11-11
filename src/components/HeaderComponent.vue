@@ -2,7 +2,7 @@
 <nav>
     <ul>
         <li>
-            <router-link to="/App">Home</router-link>
+            <router-link to="/HomeComponent">Home</router-link>
         </li>
         <li>
             <router-link to="/AboutComponent">About</router-link>
@@ -20,8 +20,8 @@
             <router-link to="/ServicesComponent">services</router-link>
         </li>
         
-        
-        <RouterView />
+   
+       
     </ul>
 </nav>
 
@@ -35,6 +35,8 @@ export default {
 </script>
 <style>
 nav {
+    position: absolute;
+    top: auto;
     width: 100%;
     line-height: 1.4em;
 }

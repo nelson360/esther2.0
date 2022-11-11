@@ -5,6 +5,7 @@ import QualificationComponent from '/src/components/QualificationComponent.vue'
 import ContactComponent from '/src/components/ContactComponent.vue'
 import WhyUs from '/src/components/WhyUs.vue'
 import ServicesComponent from '/src/components/ServicesComponent.vue'
+import HomeComponent from '/src/components/HomeComponent.vue'
 
 const routes = [
     {
@@ -37,6 +38,10 @@ const routes = [
       component: ContactComponent
     },
     {
+      path:'/HomeComponent',
+      component: HomeComponent
+    }
+    ,{
       path:'/ServicesComponent',
       component: ServicesComponent
     },
