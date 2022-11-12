@@ -1,9 +1,8 @@
 <template>
-<p>ppp why us working</p>
 
 <body class="body d-flex flex-column min-vh-100">
 
-    <marquee>whyus</marquee>
+   
     <section class="">
         <p class="vacancy">our values</p>
         <ul class="list-group">
@@ -76,6 +75,7 @@
 li{
     color: black;
 }
+
 </style>
 <script>
 export default {

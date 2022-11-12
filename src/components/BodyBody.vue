@@ -1,8 +1,6 @@
 <template scoped>
     /* eslint-disable */
-    <p>.<img alt="pop" src="/pic/logo.png">
-    </p>
-    
+    <p>.<img alt="pop" src="/pic/LOGOE.png">   </p>
   
         <main class="main">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -13,7 +11,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img alt="..." src="/pic/pexels-johannes-plenio-1103970.jpg" class="d-block w-100 h-51 firstimage3">
+                        <img alt="..." src="/pic/pexels-denis-ngai-7303292.jpg" class="d-block w-100 h-51 firstimage3">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="difre">EQUIPMENT, PERSONAL CARE ITEMS AND TOOLS</h5>
                             <p class="fredi"> Access most care items and our provision of healthcare equipment and tools.</p>
@@ -21,27 +19,22 @@
                     </div>
                     <div class="carousel-item">
                         <img alt="..." src="/pic/pexels-towfiqu-barbhuiya-8395812.jpg" class="d-block w-100 h-51 firstimage3">
-                        <img alt="Vue logo" src="/pic/pexels-towfiqu-barbhuiya-8395812.jpg" class="firstimage3">
+                        
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="difre">NUTRITION AND PHARMACITICAL CARE</h5>
                             <p class="fredi">Management of client medication plans and maintenance of healthy diet habits.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img alt="..." src="/pic/pexels-karolina-grabowska-4386466.jpg" class="firstimage3">
+                        <img alt="..." src="/pic/pexels-cottonbro-5722164.jpg" class="firstimage3">
                         <h5 class="difre">TRAINED NURSES, THERAPISTS AND CAREGIVERS</h5>
                         <p class="fredi">Professional attendants who provide best healthcare services.</p>
                     </div>
+                   
                 </div>
+
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            
             
     
         </main>
@@ -52,7 +45,7 @@
         </section>
         <aside class="aside"><img src="/pic/pexels-karolina-grabowska-4386466.jpg" class="mh-75 d-block w-100 firstimage3" alt="..."></aside>
         <p class="paragraphcare">we care for <span id="spancare">you and your loved ones</span></p>
-        <div class="justify-content-lg-end"> <button onclick="location.href='/ContactComponent.vue'" class=" btn btn-primary btn-lg">REQUEST CALL</button></div>
+        <div class="justify-content-lg-end col text-center"> <button @click="ChangeLocation()" class=" btn btn-primary btn-lg ">REQUEST CALL</button></div>
         <section class="">
     
         </section>
@@ -107,10 +100,13 @@
     </template>
     
     <script>
-    export default {
-        name: 'BodyBody',
     
-    }
+    export default {
+        name: 'BodyBody'
+       
+    
+    };
+    
     </script>
     
     <style >
