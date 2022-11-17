@@ -19,6 +19,9 @@
         <li>
             <router-link to="/ServicesComponent">services</router-link>
         </li>
+        <li>
+            <img class="imagehead" alt="pop" src="/pic/logok.png"> 
+        </li>
         
    
        
@@ -86,5 +89,12 @@ html {
 body {
     margin-bottom: 60px;
     /* Margin bottom by footer height */
+}
+.imagehead{
+    position: fixed;
+    top: 0%;
+    width: 25%;
+    height: 35%;
+
 }
 </style>

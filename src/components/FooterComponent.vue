@@ -1,5 +1,5 @@
 <template>
-<marquee>footing</marquee>
+<p></p>
 </template>
 <script>
 

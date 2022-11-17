@@ -22,7 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-//make icon
+
 bind request form to 
 bind contact information to google document
-make images have a perfect size
+make cms site
