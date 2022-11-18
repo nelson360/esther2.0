@@ -1,13 +1,12 @@
 <template>
 <HomeComponent />
 
-    <div id="nav">
-        <v-app>
-            <RouterView />
-        </v-app>
+<div id="nav">
+    <v-app>
+        <RouterView />
+    </v-app>
 
-    </div>
-
+</div>
 </template>
 
 <script>

@@ -1,13 +1,12 @@
 <template>
 <p></p>
 </template>
-<script>
 
+<script>
 export default {
-  name: 'FooterComponent',
-  
+    name: 'FooterComponent',
+
 }
 </script>
-
 
 <style></style>

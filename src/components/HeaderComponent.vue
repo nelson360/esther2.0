@@ -20,14 +20,11 @@
             <router-link to="/ServicesComponent">services</router-link>
         </li>
         <li>
-            <img class="imagehead" alt="pop" src="/pic/logok.png"> 
+            <img class="imagehead" alt="pop" src="/pic/logok.png">
         </li>
-        
-   
-       
+
     </ul>
 </nav>
-
 </template>
 
 <script>
@@ -36,6 +33,7 @@ export default {
 
 }
 </script>
+
 <style>
 nav {
     position: absolute;
@@ -56,7 +54,7 @@ ul {
 
 ul:after {
     content: "";
-    
+
     color: rgb(20, 182, 33);
     display: inline-block;
     width: 100%;
@@ -68,7 +66,7 @@ li {
     padding: auto;
     font: size 25px;
     font-style: normal;
-    color:rgb(20, 182, 33); 
+    color: rgb(20, 182, 33);
     text-decoration: none;
 
 }
@@ -90,7 +88,8 @@ body {
     margin-bottom: 60px;
     /* Margin bottom by footer height */
 }
-.imagehead{
+
+.imagehead {
     position: fixed;
     top: 0%;
     width: 25%;

@@ -1,8 +1,6 @@
 <template>
-
 <body class="body d-flex flex-column min-vh-100">
 
-   
     <section class="">
         <p class="vacancy">our values</p>
         <ul class="list-group">
@@ -14,7 +12,7 @@
         </ul>
         <p class="vacancy">Our Staff</p>
         <p class="butita">We constantly strive to provide a consistent and high-quality service. We do this through our staff. We recruit motivated and compassionate people, then develop, manage and invest heavily in their training so that they not only do an excellent job but love their jobs, too. This makes happier services for the people we support.
-            Were here to help in any way we can  so please don't hesitate to get in touch.
+            Were here to help in any way we can so please don't hesitate to get in touch.
         </p>
 
     </section>
@@ -72,11 +70,11 @@
 </template>
 
 <style scoped>
-li{
+li {
     color: black;
 }
-
 </style>
+
 <script>
 export default {
     name: 'WhyUs',
