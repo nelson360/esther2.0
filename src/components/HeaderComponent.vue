@@ -20,11 +20,12 @@
             <router-link to="/ServicesComponent">services</router-link>
         </li>
         <li>
-            <img class="imagehead" alt="pop" src="/pic/logok.png">
+            <img class="imagehead" alt="logo" src="/pic/logok.png">
         </li>
 
     </ul>
 </nav>
+
 </template>
 
 <script>

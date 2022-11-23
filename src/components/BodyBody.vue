@@ -1,5 +1,5 @@
 <template>
-<main class="main">
+<div class="main">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,7 +32,7 @@
 
     </div>
 
-</main>
+</div>
 <section class="">
     <p class="paragraph1">
         Through trained nurses, caregivers and therapists we offer a wide range of home healthcare services that enable our patients to live in their home, enjoy greater independence,and receive adequate support and care to enhance their comfort and dignity every day.
@@ -43,7 +43,8 @@
     we care for <span id="spancare">you and your loved ones</span>
 </p>
 <div class="justify-content-lg-end col text-center">
-    <button @click="ChangeLocation()" class=" btn btn-primary btn-lg ">REQUEST CALL</button>
+    <router-link to="/ContactComponent"><button class=" btn btn-primary btn-lg ">REQUEST CALL</button></router-link>
+    
 </div>
 <section class="">
 
@@ -102,6 +103,9 @@ export default {
 </script>
 
 <style>
+.main{
+    justify-content: center;
+}
 .firstimage3 {
     border: 2px;
     border-radius: 15%;

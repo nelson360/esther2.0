@@ -23,6 +23,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-bind request form to 
-bind contact information to google document
-make cms site
+
+//bind contact information to google document
+
