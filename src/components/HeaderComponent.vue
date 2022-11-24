@@ -20,7 +20,7 @@
             <router-link to="/ServicesComponent">services</router-link>
         </li>
         <li>
-            <img class="imagehead" alt="logo" src="/pic/logok.png">
+            <img class="imagehead" alt="logo" src="https://images.pexels.com/photos/9843280/pexels-photo-9843280.jpeg?auto=compress&cs=tinysrgb&w=600">
         </li>
 
     </ul>
