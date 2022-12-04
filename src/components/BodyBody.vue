@@ -7,15 +7,15 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img alt="..." src="https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem">
+            <div class="carousel-item active ">
+                <img alt="..." src="https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem imagesize">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="difre">EQUIPMENT, PERSONAL CARE ITEMS AND TOOLS</h5>
                     <p class="fredi"> Access most care items and our provision of healthcare equipment and tools.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img alt="..." src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem">
+                <img alt="..." src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem imagesize">
 
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="difre">NUTRITION AND PHARMACITICAL CARE</h5>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img alt="..." src="https://images.pexels.com/photos/5430213/pexels-photo-5430213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="text-center firstimage3doc">
+                <img alt="..." src="https://images.pexels.com/photos/5430213/pexels-photo-5430213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="text-center firstimage3doc imagesize">
                 <h5 class="difre">TRAINED NURSES, THERAPISTS AND CAREGIVERS</h5>
                 <p class="fredi">Professional attendants who provide best healthcare services.</p>
             </div>
@@ -132,6 +132,16 @@ export default {
     align-items: center;
     height: 70%;
     width: 60%;
+
+}.imagesize{
+    width:200px ;
+    height: 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+
 
 }
 </style>

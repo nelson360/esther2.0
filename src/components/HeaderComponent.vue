@@ -49,7 +49,7 @@ ul {
     width: 100%;
     margin: 0;
     padding: 0;
-    text-align: justify;
+    text-align: center;
     margin-bottom: -1.4em;
 }
 
