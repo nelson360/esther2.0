@@ -13,6 +13,5 @@ export default {
         BodyBody,
         FooterComponent
     }
-
 }
 </script>

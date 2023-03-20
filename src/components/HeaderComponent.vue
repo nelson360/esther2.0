@@ -1,100 +1,130 @@
 <template>
-<nav>
-    <ul>
-        <li>
+    <nav>
+      <div class="logo">
+        <router-link to="/HomeComponent">Ecare</router-link>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li>
             <router-link to="/HomeComponent">Home</router-link>
-        </li>
-        <li>
+          </li>
+          <li>
             <router-link to="/AboutComponent">About</router-link>
-        </li>
-        <li>
+          </li>
+          <li>
             <router-link to="/QualificationComponent">Careers</router-link>
-        </li>
-        <li>
+          </li>
+          <li>
             <router-link to="/ContactComponent">Contact</router-link>
-        </li>
-        <li>
+          </li>
+          <li>
             <router-link to="/WhyUs">Why us</router-link>
-        </li>
-        <li>
+          </li>
+          <li>
             <router-link to="/ServicesComponent">services</router-link>
-        </li>
-        <li>
-            <img class="imagehead" alt="logo" src="https://images.pexels.com/photos/9843280/pexels-photo-9843280.jpeg?auto=compress&cs=tinysrgb&w=600">
-        </li>
-
-    </ul>
-</nav>
-
-</template>
-
-<script>
-export default {
+          </li>
+        </ul>
+      </div>
+      <div class="burger" @click="showMenu = !showMenu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="mobile-nav-links" v-show="showMenu">
+        <ul>
+          <li>
+            <router-link to="/HomeComponent">Home</router-link>
+          </li>
+          <li>
+            <router-link to="/AboutComponent">About</router-link>
+          </li>
+          <li>
+            <router-link to="/QualificationComponent">Careers</router-link>
+          </li>
+          <li>
+            <router-link to="/ContactComponent">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/WhyUs">Why us</router-link>
+          </li>
+          <li>
+            <router-link to="/ServicesComponent">services</router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </template>
+  
+  <script>
+  export default {
     name: 'HeaderComponent',
-
-}
-</script>
-
-<style>
-nav {
+    data() {
+      return {
+        showMenu: false
+      };
+    }
+  };
+  </script>
+  
+  <style>
+  nav {
     position: absolute;
-    top: auto;
+    top: 0;
+    left: 0;
     width: 100%;
-    line-height: 1.4em;
-}
-
-ul {
-    list-style: none;
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    margin-bottom: -1.4em;
-}
-
-ul:after {
-    content: "";
-
-    color: rgb(20, 182, 33);
-    display: inline-block;
-    width: 100%;
-}
-
-li {
-    display: inline-block;
-    margin: 4%;
-    padding: auto;
-    font: size 25px;
-    font-style: normal;
-    color: rgb(20, 182, 33);
-    text-decoration: none;
-
-}
-
-nav>a {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
     font-weight: bold;
-    color: #2c3e50;
-    /* &.router-link-exact-active {
-    color: #42b983;
-  } */
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-    /* Margin bottom by footer height */
-}
-
-.imagehead {
-    position: fixed;
-    top: 0%;
-    width: 25%;
-    height: 35%;
-
-}
-</style>
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .nav-links ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  }
+  </style>
+  

@@ -1,52 +1,45 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HeaderComponent from '/src/components/HeaderComponent.vue'
-import AboutComponent from '/src/components/AboutComponent.vue'
-import QualificationComponent from '/src/components/QualificationComponent.vue'
-import ContactComponent from '/src/components/ContactComponent.vue'
-import WhyUs from '/src/components/WhyUs.vue'
-import ServicesComponent from '/src/components/ServicesComponent.vue'
 import HomeComponent from '/src/components/HomeComponent.vue'
 
 const routes = [
+  
     {
-      path: '/',
-      //name: 'home',
-      component: HeaderComponent
+      path: '/HomeComponent',
+      name: 'HomeComponent',
+      component: HomeComponent
     },
     {
       path: '/AboutComponent',
-      //name: 'AboutView',
+      name: 'AboutView',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: AboutComponent
+      
+      component: () => import("/src/components/AboutComponent.vue"),
     },
     {
       path: '/QualificationComponent',
-      //name: 'CartComponent',
+      name: 'QualificationComponent',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: QualificationComponent
+      component: () => import("/src/components/QualificationComponent.vue"),
     },
     {
       path: '/ContactComponent',
-      //name: 'AdminPage',
+      name: 'ContactComponent',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: ContactComponent
+  
+      component: () => import("/src/components/ContactComponent.vue"),
     },
     {
-      path:'/HomeComponent',
-      component: HomeComponent
-    }
-    ,{
       path:'/ServicesComponent',
-      component: ServicesComponent
+      name: 'ServicesComponent',
+      component: () => import("/src/components/ServicesComponent.vue"),
     },
     {path:'/WhyUs',
-    component: WhyUs}
+    name: 'WhyUs',
+    component: () => import("/src/components/WhyUs.vue"),}
   
   ]
   
@@ -56,4 +49,3 @@ const routes = [
   })
   
   export default router
-  

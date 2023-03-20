@@ -1,43 +1,39 @@
 <template>
-<p>
-    mission
-</p>
-<p>"To inspire hope and contribute to health and well-being by providing the best care to every patient through intergrated clinical practice,education and research"</p>
-<p>vision</p>
-<p>To be a regional, national and international leader in nursing care and services</p>
-</template>
-
-<script>
-export default {
+    <div>
+      <p class="pmission">Mission</p>
+      <p>To inspire hope and contribute to health and well-being by providing the best care to every patient through integrated clinical practice, education, and research.</p>
+      <p class="pvision">Vision</p>
+      <p>To be a regional, national, and international leader in nursing care and services.</p>
+    </div>
+  </template>
+  
+  <script>
+  export default {
     name: 'AboutComponent',
-}
-</script>
-
-<style>
-body {
-
+  }
+  </script>
+  
+  <style>
+  body {
     background-image: url(/src/assets/pictures/pexels-johannes-plenio-1103970.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.pmission {
-    align-items: center;
-    font-size: larger;
+  }
+  
+  .pmission {
+    font-size: 2rem;
     text-align: center;
-    text-decoration: none;
     text-transform: capitalize;
-    padding-left: 80px;
-
-}
-
-.pvision {
-    font-size: larger;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .pvision {
+    font-size: 2rem;
     text-align: center;
-    text-decoration: none;
     text-transform: capitalize;
-    padding: 10px;
-
-}
-</style>
+    padding: 2rem;
+    color: #fff;
+  }
+  </style>
+  

@@ -1,40 +1,6 @@
 <template>
-<p>
-    template contact form
-</p>
-
 <section class="contact">
-    <form>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">FULL NAME</label><br>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="FULL NAME">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">CONTACT NUMBER</label><br>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="CONTACT NUMBER">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label><br>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">COUNTY</label><br>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>MOMBASA</option>
-                <option>KISUMU</option>
-                <option>NAIROBI</option>
-                <option>NAKURU</option>
-                <option>NAIVASHA</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">DETAILS</label><br>
-
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCFKPjip-W-wbi7JmOcpmMIWFnWC1tHOAq7cYREpOAX7K2Ug/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </section>
 
 <!-- Footer -->
@@ -92,3 +58,11 @@ export default {
     name: 'ContactComponent',
 }
 </script>
+<style>
+.contact{
+    padding-left: 10px;
+    padding-right: 16px;
+    margin-right: 20%;
+    margin-left: 2%;
+}
+</style>

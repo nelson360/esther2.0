@@ -1,10 +1,6 @@
 <template>
-<p>career</p>
-<ar>
     <marquee>career</marquee>
-
-</ar>
-<section class="">
+<section class="qualification">
     <p class="vacancy">vacancies</p>
     <p class="vactitle">RE:TNV/012/JUNE/15-TRAINED NURSES VACANCY(5)</p>
     <hr>
@@ -100,3 +96,7 @@ export default {
     name: 'QualificationComponent',
 }
 </script>
+<style>
+.qualification{
+    padding-left: 10px;
+  }</style>

@@ -1,4 +1,5 @@
 <template>
+    <div class="body">
 <div class="main">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -8,14 +9,14 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active ">
-                <img alt="..." src="https://images.pexels.com/photos/3844581/pexels-photo-3844581.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem imagesize">
+                <img alt="..." src="https://images.pexels.com/photos/12491908/pexels-photo-12491908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block text-center carouselitem2">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="difre">EQUIPMENT, PERSONAL CARE ITEMS AND TOOLS</h5>
                     <p class="fredi"> Access most care items and our provision of healthcare equipment and tools.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img alt="..." src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem imagesize">
+                <img alt="..." src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem2">
 
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="difre">NUTRITION AND PHARMACITICAL CARE</h5>
@@ -23,7 +24,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img alt="..." src="https://images.pexels.com/photos/5430213/pexels-photo-5430213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="text-center firstimage3doc imagesize">
+                <img alt="..." src="https://images.pexels.com/photos/6098057/pexels-photo-6098057.jpeg?auto=compress&cs=tinysrgb&w=600" class="text-center carouselitem2">
                 <h5 class="difre">TRAINED NURSES, THERAPISTS AND CAREGIVERS</h5>
                 <p class="fredi">Professional attendants who provide best healthcare services.</p>
             </div>
@@ -34,14 +35,14 @@
 
 </div>
 <section class="">
-    <p class="paragraph1">
+    <div class="paragraph1">
         Through trained nurses, caregivers and therapists we offer a wide range of home healthcare services that enable our patients to live in their home, enjoy greater independence,and receive adequate support and care to enhance their comfort and dignity every day.
-    </p>
+    </div>
 </section>
 <aside class="aside"><img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="mh-75 d-block firstimage3" alt="..."></aside>
-<p class="paragraphcare">
+<div class="paragraphcare">
     we care for <span id="spancare">you and your loved ones</span>
-</p>
+</div>
 <div class="justify-content-lg-end col text-center">
     <router-link to="/ContactComponent"><button class=" btn btn-primary btn-lg ">REQUEST CALL</button></router-link>
     
@@ -49,7 +50,7 @@
 <section class="">
 
 </section>
-
+</div>
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
 
@@ -88,7 +89,7 @@
 
     </div>
 
-    <div class="footer-copyright text-center py-3">© 2022 Copyright:estercare.com
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
         <a href="/">esthercare.com</a>
     </div>
 
@@ -106,14 +107,52 @@ export default {
 .main{
     justify-content: center;
 }
+.body{ 
+    padding-left: 10px;
+    padding-right: 16px;
+    margin-right: 20%;
+}
 .firstimage3 {
     border: 2px;
     border-radius: 15%;
     height: 40%;
-    width: 55%;
-    align-self: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    pointer-events: none;
 }
+.carouselitem1{
+    border: 2px;
+    height: 20%;
+    width: 80%;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    pointer-events: none;
 
+}
+.carouselitem2{
+    border: 2px;
+    height: 40%;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+
+}
+.carouselitem3{
+    border: 2px;
+    height: 20%;
+    width: 35%;
+    border-radius: 10%;
+    align-self: center;
+    pointer-events: none;
+}
 .firstimage3doc {
     border: 2px;
     border-radius: 15%;
@@ -124,9 +163,7 @@ export default {
 
 .carouselitem {
     border: 2px;
-    border-radius: 15%;
-    vertical-align: middle;
-    display: flex;
+    border-radius: 10%;
     justify-content: center;
     align-items: center;
     align-items: center;
@@ -141,7 +178,22 @@ export default {
     align-items: center;
     align-items: center;
     text-align: center;
-
-
+}
+.paragraphcare{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: x-large;
+}
+.paragraph1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    font-size: x-large;
+    text-align: center;
+}.difre{
+    color: blue;
+}.fredi{
+    color: yellow;
 }
 </style>
