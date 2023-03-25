@@ -38,7 +38,7 @@
         Public relations and problem-solving skills.<br>
         Mature and confident with sense of urgency in execution of tasks.<br></p>
 
-    <b>Interested applicants should send their updated CVs and application letters to jobs.esthercare@gmail.com by 5.00 pm on 30th July 2022 with the email subject being the job title reference.</b>
+    <b>Interested applicants should send their updated CVs and application letters to jobs.maishacare@gmail.com by 5.00 pm on 30th July 2022 with the email subject being the job title reference.</b>
 
 </section>
 <!-- Footer -->
@@ -84,7 +84,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="/"> esthercare.com</a>
+        <a href="/"> maishacare.com</a>
     </div>
     <!-- Copyright -->
 

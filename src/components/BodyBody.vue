@@ -41,8 +41,7 @@
 </section>
 <aside class="aside"><img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="mh-75 d-block firstimage3" alt="..."></aside>
 <div class="paragraphcare">
-    we care for <span id="spancare">you and your loved ones</span>
-</div>
+    we care for you </div>
 <div class="justify-content-lg-end col text-center">
     <router-link to="/ContactComponent"><button class=" btn btn-primary btn-lg ">REQUEST CALL</button></router-link>
     
@@ -64,8 +63,8 @@
             <div class="col-md-6 mt-md-0 mt-3">
 
                 <!-- Content -->
-                <h5 class="text-uppercase">ESTHER HOME CARE</h5>
-                <p>Here at Esther Home Care your health is our number 1 priority.</p>
+                <h5 class="text-uppercase">MAISHA HOME CARE</h5>
+                <p>Here at MAISHA Home Care your health is our number 1 priority.</p>
 
             </div>
             <!-- Grid column -->
@@ -74,11 +73,11 @@
 
             <!-- Grid column -->
             <div class="col-md-3 mb-md-0 mb-3">
-                Nairobi Serena Hoteltta Ave, City Centre
+                Nairobi City Ave, City Centre
                 <hr>
                 Nairobi
                 <hr>
-                +254716300580
+                +254779477821
                 <hr>
                 P.O BOX 4565-00100
                 <hr>
@@ -90,7 +89,7 @@
     </div>
 
     <div class="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="/">esthercare.com</a>
+        <a href="/">MAISHAcare.com</a>
     </div>
 
 </footer>

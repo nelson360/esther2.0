@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="logo">
-        <router-link to="/HomeComponent">Ecare</router-link>
+        <router-link to="/HomeComponent">Maisha Care</router-link>
       </div>
       <div class="nav-links">
         <ul>
@@ -81,6 +81,7 @@
   }
   
   .logo {
+    font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 24px;
     margin-left: 20px;

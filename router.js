@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 import HomeComponent from '/src/components/HomeComponent.vue'
 
 const routes = [
@@ -45,7 +46,7 @@ const routes = [
   
   const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
-    routes
+    routes,
   })
   
   export default router

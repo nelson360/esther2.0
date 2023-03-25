@@ -2,7 +2,7 @@
 
     <div class="container">
   
-      <h1 class="page-title">Services</h1>
+      <h1 class="page-title">Our Services</h1>
   
       <section class="services-section">
   
@@ -42,7 +42,7 @@
   
       <footer class="page-footer">
         <div class="footer-container">
-          <p class="footer-text">© 2022 esthercare.com</p>
+          <p class="footer-text">© 2022 maishacare.com</p>
         </div>
       </footer>
   
