@@ -19,7 +19,7 @@
                 <img alt="..." src="https://images.pexels.com/photos/1660027/pexels-photo-1660027.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block text-center carouselitem2">
 
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="difre">NUTRITION AND PHARMACITICAL CARE</h5>
+                    <h5 class="difre">NUTRITION AND PHARMACEUTICAL CARE</h5>
                     <p class="fredi">Management of client medication plans and maintenance of healthy diet habits.</p>
                 </div>
             </div>
@@ -43,7 +43,11 @@
 <div class="paragraphcare">
     we care for you </div>
 <div class="justify-content-lg-end col text-center">
-    <router-link to="/ContactComponent"><button class=" btn btn-primary btn-lg ">REQUEST CALL</button></router-link>
+    <router-link to="/ContactComponent">
+        <div class="button-container">
+        <button class=" btn btn-primary btn-lg ">REQUEST CALL</button>
+        </div>
+    </router-link>
     
 </div>
 <section class="">
@@ -64,7 +68,7 @@
 
                 <!-- Content -->
                 <h5 class="text-uppercase">MAISHA HOME CARE</h5>
-                <p>Here at MAISHA Home Care your health is our number 1 priority.</p>
+                <p>Here at Maisha Home Care your health is our number 1 priority.</p>
 
             </div>
             <!-- Grid column -->
@@ -88,8 +92,8 @@
 
     </div>
 
-    <div class="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="/">MAISHAcare.com</a>
+    <div class="footer-copyright text-center py-3">© 2023 Copyright:
+        <a href="/">MaishaCare.com</a>
     </div>
 
 </footer>
@@ -178,17 +182,27 @@ export default {
     align-items: center;
     text-align: center;
 }
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
 .paragraphcare{
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    font-size: x-large;
+    color: rgb(211, 203, 203);
+    font-size: 3em;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .paragraph1{
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: 10%;
-    font-size: x-large;
+    font-size: 2em;
     text-align: center;
 }.difre{
     color: blue;

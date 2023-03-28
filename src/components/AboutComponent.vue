@@ -1,9 +1,9 @@
 <template>
     <div>
       <p class="pmission">Mission</p>
-      <p>To inspire hope and contribute to health and well-being by providing the best care to every patient through integrated clinical practice, education, and research.</p>
+      <div class="component">To inspire hope and contribute to health and well-being by providing the best care to every patient through integrated clinical practice, education, and research.</div>
       <p class="pvision">Vision</p>
-      <p>To be a regional, national, and international leader in nursing care and services.</p>
+      <div class="component">To be a regional, national, and international leader in nursing care and services.</div>
     </div>
   </template>
   
@@ -34,6 +34,13 @@
     text-transform: capitalize;
     padding: 2rem;
     color: #fff;
+  }
+  .component{
+    text-emphasis:initial;
+    font-size: 3ch;
+    text-align: center;
+    text-overflow: clip;
+    
   }
   </style>
   

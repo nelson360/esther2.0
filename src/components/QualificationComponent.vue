@@ -1,7 +1,6 @@
 <template>
-    <marquee>career</marquee>
 <section class="qualification">
-    <p class="vacancy">vacancies</p>
+    <p class="vtitle">vacancies</p>
     <p class="vactitle">RE:TNV/012/JUNE/15-TRAINED NURSES VACANCY(5)</p>
     <hr>
     <p class="butita">
@@ -99,4 +98,15 @@ export default {
 <style>
 .qualification{
     padding-left: 10px;
-  }</style>
+  }
+.vtitle{
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px #fff;
+    letter-spacing: 2cap;
+}
+p{
+    font-size: 1em;
+}
+</style>

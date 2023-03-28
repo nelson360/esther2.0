@@ -1,6 +1,6 @@
 <template>
     <section class="body d-flex flex-column min-vh-100">
-      <p class="vacancy">Our Values</p>
+      <p class="vtitle">Our Values</p>
       <ul class="list-group">
         <li class="list-group-item bg-light"
           ><b>Dedication</b>: We are dedicated to offering patients and their
@@ -19,7 +19,7 @@
           ><b>Partnerships</b>: We recognize the value of strong internal and
           external partnerships to accomplish our goals.</li>
       </ul>
-      <p class="vacancy">Our Staff</p>
+      <p class="vtitle">Our Staff</p>
       <p class="butita">
         We constantly strive to provide a consistent and high-quality service.
         We do this through our staff. We recruit motivated and compassionate
@@ -73,7 +73,7 @@
         <!-- Footer Elements -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+        <div class="footer-copyright text-center py-3">© 2023 Copyright:
             <a href="/"> maishacare.com</a>
         </div>
         <!-- Copyright -->
@@ -84,8 +84,29 @@
 </template>
 
 <style scoped>
+ul{
+  list-style: none;
+}
 li {
     color: black;
+    margin-top: 5%;
+    text-align: center;
+}
+.vtitle{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-shadow: 1px 1px #fff;
+  letter-spacing: 2cap;
+}.butita{
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 10%;
+}.list-group{
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 10%;
 }
 </style>
 

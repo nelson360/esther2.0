@@ -100,6 +100,7 @@
   
   .service-description {
     margin-top: 20px;
+    font-size: 120%;
   }
   
   /* Footer Styles */
