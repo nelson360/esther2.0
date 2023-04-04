@@ -113,6 +113,11 @@ li {
 <script>
 export default {
     name: 'WhyUs',
-
+    metaInfo: {
+    title: 'Our Values',
+    meta: [
+      { name: 'Our Values', content: 'Find the best things in Kenya here.Dedication We are dedicated to offering patients and their families efficient service and great value for their money', }
+    ]
+  },
 }
 </script>

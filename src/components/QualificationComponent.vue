@@ -93,6 +93,12 @@
 <script>
 export default {
     name: 'QualificationComponent',
+    metaInfo: {
+    title: 'jobs in Kenya nursing',
+    meta: [
+      { name: 'description', content: 'Find the best things in Kenya here.' }
+    ]
+  },
 }
 </script>
 <style>

@@ -1,12 +1,12 @@
 {
-  "name": "esther2.0",
+  "name": "maishacare",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": " deploy.sh"
+    "deploy":"vue-cli-service deploy.sh"
   },
   "dependencies": {
     "ant-design-vue": "^3.2.15",

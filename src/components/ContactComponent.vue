@@ -56,6 +56,12 @@
 <script>
 export default {
     name: 'ContactComponent',
+    metaInfo: {
+    title: 'maisha home care',
+    meta: [
+      { name: 'description', content: 'contact maisha salem here ' }
+    ]
+  },
 }
 </script>
 <style>

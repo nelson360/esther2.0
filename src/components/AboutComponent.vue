@@ -10,6 +10,12 @@
   <script>
   export default {
     name: 'AboutComponent',
+    metaInfo: {
+    title: 'nursing home care and health care',
+    meta: [
+      { name: 'description', content: 'Find the best nurses in Kenya here.' }
+    ]
+  },
   }
   </script>
   

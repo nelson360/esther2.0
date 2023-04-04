@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="logo">
-        <router-link to="/HomeComponent">Maisha Care</router-link>
+        <router-link to="/HomeComponent">MaishaCare</router-link>
       </div>
       <div class="nav-links">
         <ul>
@@ -58,6 +58,12 @@
   <script>
   export default {
     name: 'HeaderComponent',
+    metaInfo: {
+    title: 'maisha home care',
+    meta: [
+      { name: 'description', content: 'best home nursing care in kenya' }
+    ]
+  },
     data() {
       return {
         showMenu: false
@@ -121,7 +127,6 @@
   
   @media only screen and (max-width: 600px) {
     .nav-links ul {
-      flex-direction: column;
       justify-content: center;
       align-items: center;
   

@@ -101,8 +101,13 @@
 
 <script>
 export default {
-    name: 'BodyBody'
-
+    name: 'BodyBody',
+    metaInfo: {
+    title: 'Best in Kenya',
+    meta: [
+      { name: 'description', content: 'Find the best nursing home care and health care in Kenya here.' }
+    ]
+  },
 };
 </script>
 

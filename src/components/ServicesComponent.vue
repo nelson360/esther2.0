@@ -42,7 +42,7 @@
   
       <footer class="page-footer">
         <div class="footer-container">
-          <p class="footer-text">© 2022 maishacare.com</p>
+          <p class="footer-text">© 2023 maishahomecare.com</p>
         </div>
       </footer>
   
@@ -53,6 +53,12 @@
   <script>
   export default {
     name: 'ServicesComponent',
+    metaInfo: {
+    title: 'Best in Kenya HOME NURSING CARE SERVICES,DIET PLANNING AND EDUCATION,THERAPY SERVICES,COUNSELLING SERVICES',
+    meta: [
+      { name: 'description', content: 'We provide results-oriented professional counseling services to individual patients and/or their families and group' }
+    ]
+  },
   }
   </script>
   

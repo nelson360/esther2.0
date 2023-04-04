@@ -1,4 +1,6 @@
 
 module.exports = {
-  publicPath:'/esther2.0/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/maishacare/'
+    : '/'
 }

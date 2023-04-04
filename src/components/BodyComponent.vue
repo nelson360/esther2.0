@@ -8,6 +8,12 @@
 <script>
 export default {
     name: 'BodyComponent',
+    metaInfo: {
+    title: 'nursing home care and health care',
+    meta: [
+      { name: 'description', content: 'Find the best nursing home care and health care in Kenya here.' }
+    ]
+  },
 
 }
 </script>

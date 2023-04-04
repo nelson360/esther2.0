@@ -10,9 +10,9 @@ import FooterComponent from '/src/components/FooterComponent.vue'
 export default {
     name: 'HomeComponent',
     metaInfo: {
-    title: 'Best in Kenya',
+    title: 'Best in Kenya nursing home health care and nursing',
     meta: [
-      { name: 'description', content: 'Find the best things in Kenya here.' }
+      { name: 'description', content: 'Find the best nursing home care and nursing in Kenya here.' }
     ]
   },
   components: {
