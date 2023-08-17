@@ -1,118 +1,125 @@
 <template>
-<section class="qualification">
-    <p class="vtitle">vacancies</p>
-    <p class="vactitle">RE:TNV/012/JUNE/15-TRAINED NURSES VACANCY(5)</p>
-    <hr>
-    <p class="butita">
-        Diploma in any of the following Disciplines:<br>
-        Kenya Registered Community Health Nursing, Kenya Registered Nursing; Kenya Registered Midwifery, Kenya Registered Nursing/Midwifery or Kenya Registered Nursing/Mental Health and Psychiatry from a recognized institution;
-        Registration Certificate issued by the Nursing Council of Kenya;
-        Valid practicing license from the Nursing Council of Kenya;
-        Certificate in computer application skills from a recognized institution
-    </p>
-    <P class="vactitle">RE:TNV/013/JUNE/15-TRAINED THERAPISTS(2)</P>
-    <hr>
-    <p class="butita">Desired Skills & Qualifications<br>
-
-        High School or secondary diploma required.<br>
-
-        Massage certificate.<br>
-
-        Beauty therapy certificate.<br>
-
-        Aromatherapy certificate.<br>
-
-        First Aid and CPR certificate (an advantage).<br>
-
-        Knowledge of herbal therapy, body treatments and facials.<br>
-
-        Knowledge in operating Spa machines and equipments.<br>
-    </p>
-    <p class="vactitle">RE:TNV/013/JUNE/15-CAREGIVERS(3)</p>
-    <hr>
-    <p class="butita">Personal attributes
-
-        Excellent interpersonal and communication skills both written and spoken.<br>
-        Good organizational skills and keen to details.<br>
-        Public relations and problem-solving skills.<br>
-        Mature and confident with sense of urgency in execution of tasks.<br></p>
-
-    <b>Interested applicants should send their updated CVs and application letters to jobs.maishacare@gmail.com by 5.00 pm on 30th July 2022 with the email subject being the job title reference.</b>
-
-</section>
-<!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4 mt-auto">
-
-    <!-- Footer Elements -->
-    <div class="container">
-
-        <!--Grid row-->
+    <HeaderComponent/>
+    <section class="qualification">
+      <div class="container">
         <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
-
-                <!-- Form -->
-                <form class="form-inline">
-                    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
-                    <i class="fas fa-search" aria-hidden="true"></i>
-                </form>
-                <!-- Form -->
-
+          <div class="col-md-12">
+            <h2 class="text-center">Vacancies</h2>
+            <div class="vacancy">
+              <h4>RE:TNV/012/JUNE/15 - TRAINED NURSES VACANCY(5)</h4>
+              <hr>
+              <p>
+                Diploma in any of the following Disciplines:<br>
+                Kenya Registered Community Health Nursing, Kenya Registered Nursing; Kenya Registered Midwifery, Kenya Registered Nursing/Midwifery or Kenya Registered Nursing/Mental Health and Psychiatry from a recognized institution;<br>
+                Registration Certificate issued by the Nursing Council of Kenya;<br>
+                Valid practicing license from the Nursing Council of Kenya;<br>
+                Certificate in computer application skills from a recognized institution
+              </p>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
-
-                <form class="input-group">
-                    <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
-                    </div>
-                </form>
-
+            <div class="vacancy">
+              <h4>RE:TNV/013/JUNE/15 - TRAINED THERAPISTS(2)</h4>
+              <hr>
+              <p>
+                Desired Skills & Qualifications<br>
+                High School or secondary diploma required.<br>
+                Massage certificate.<br>
+                Beauty therapy certificate.<br>
+                Aromatherapy certificate.<br>
+                First Aid and CPR certificate (an advantage).<br>
+                Knowledge of herbal therapy, body treatments and facials.<br>
+                Knowledge in operating Spa machines and equipments.
+              </p>
             </div>
-            <!--Grid column-->
-
+            <div class="vacancy">
+              <h4>RE:TNV/013/JUNE/15 - CAREGIVERS(3)</h4>
+              <hr>
+              <p>
+                Personal attributes<br>
+                Excellent interpersonal and communication skills both written and spoken.<br>
+                Good organizational skills and keen to details.<br>
+                Public relations and problem-solving skills.<br>
+                Mature and confident with a sense of urgency in the execution of tasks.
+              </p>
+              <p class="mb-0">
+                <b>Interested applicants should send their updated CVs and application letters to jobs@maishahomecare.com by 5.00 pm on 30th July 2022 with the email subject being the job title reference.</b>
+              </p>
+            </div>
+          </div>
         </div>
-        <!--Grid row-->
-
-    </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="/"> maishacare.com</a>
-    </div>
-    <!-- Copyright -->
-
-</footer>
-</template>
-
-<script>
-export default {
-    name: 'QualificationComponent',
-    metaInfo: {
-    title: 'jobs in Kenya nursing',
-    meta: [
-      { name: 'description', content: 'Find the best things in Kenya here.' }
-    ]
-  },
-}
-</script>
-<style>
-.qualification{
-    padding-left: 10px;
+      </div>
+    </section>
+  </template>
+  
+  <script>
+  import HeaderComponent from '/src/components/HeaderComponent.vue';
+  export default {
+      name: 'QualificationComponent',
+      metaInfo: {
+      title: 'Jobs in Kenya Nursing',
+      meta: [
+        { name: 'description', content: 'Find the best things in Kenya here.' }
+      ]
+    },
+    components:{
+        HeaderComponent,
+    }
   }
-.vtitle{
-    font-size: 3em;
-    text-align: center;
+  </script>
+  
+  <style>
+  .qualification {
+    padding: 3rem 0;
+  }
+  
+  .vacancy {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vacancy h4 {
     color: #333;
-    text-shadow: 1px 1px #fff;
-    letter-spacing: 2cap;
-}
-p{
-    font-size: 1em;
-}
-</style>
+  }
+  
+  .vacancy hr {
+    margin: 1rem 0;
+  }
+  
+  .vacancy p {
+    color: #666;
+  }
+  
+  .vacancy b {
+    display: block;
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  .page-footer {
+    padding-top: 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page-footer a {
+    color: #fff;
+  }
+  
+  .page-footer .form-control {
+    width: 75%;
+  }
+  
+  .page-footer .btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .page-footer .btn-outline-white:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  </style>
+  

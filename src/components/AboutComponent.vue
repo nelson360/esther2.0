@@ -1,52 +1,71 @@
 <template>
-    <div>
-      <p class="pmission">Mission</p>
-      <div class="component">To inspire hope and contribute to health and well-being by providing the best care to every patient through integrated clinical practice, education, and research.</div>
-      <p class="pvision">Vision</p>
-      <div class="component">To be a regional, national, and international leader in nursing care and services.</div>
+<HeaderComponent/>
+  <div class="about-container">
+    <div class="mission">
+      <p class="heading">Mission</p>
+      <div class="content">To inspire hope and contribute to health and well-being by providing the best care to every patient through integrated clinical practice, education, and research.</div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'AboutComponent',
-    metaInfo: {
-    title: 'nursing home care and health care',
+    <div class="vision">
+      <p class="heading">Vision</p>
+      <div class="content">To be a regional, national, and international leader in nursing care and services.</div>
+    </div>
+  </div>
+</template>
+
+<script>
+import HeaderComponent from '/src/components/HeaderComponent.vue';
+export default {
+  name: 'AboutComponent',
+  metaInfo: {
+    title: 'Nursing Home Care and Health Care',
     meta: [
       { name: 'description', content: 'Find the best nurses in Kenya here.' }
     ]
-  },
-  }
-  </script>
-  
-  <style>
-  body {
-    background-image: url(/src/assets/pictures/pexels-johannes-plenio-1103970.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  },components: {
+    HeaderComponent,
   }
   
-  .pmission {
-    font-size: 2rem;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 2rem;
-    color: #fff;
-  }
-  
-  .pvision {
-    font-size: 2rem;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 2rem;
-    color: #fff;
-  }
-  .component{
-    text-emphasis:initial;
-    font-size: 3ch;
-    text-align: center;
-    text-overflow: clip;
-    
-  }
-  </style>
-  
+};
+</script>
+
+<style>
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mission,
+.vision {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* Background Image Styles */
+body {
+  margin: 0;
+  background-image: url('https://www.pexels.com/photo/gray-and-white-wallpaper-1103970/');
+  background-repeat: no-repeat;
+  background-color: grey;
+  background-image: cover;
+  font-family: Arial, sans-serif;
+}
+</style>

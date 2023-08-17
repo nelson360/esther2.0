@@ -1,136 +1,138 @@
 <template>
-    <nav>
-      <div class="logo">
-        <router-link to="/HomeComponent">MaishaCare</router-link>
-      </div>
-      <div class="nav-links">
-        <ul>
-          <li>
-            <router-link to="/HomeComponent">Home</router-link>
-          </li>
-          <li>
-            <router-link to="/AboutComponent">About</router-link>
-          </li>
-          <li>
-            <router-link to="/QualificationComponent">Careers</router-link>
-          </li>
-          <li>
-            <router-link to="/ContactComponent">Contact</router-link>
-          </li>
-          <li>
-            <router-link to="/WhyUs">Why us</router-link>
-          </li>
-          <li>
-            <router-link to="/ServicesComponent">services</router-link>
-          </li>
-        </ul>
-      </div>
-      <div class="burger" @click="showMenu = !showMenu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      <div class="mobile-nav-links" v-show="showMenu">
-        <ul>
-          <li>
-            <router-link to="/HomeComponent">Home</router-link>
-          </li>
-          <li>
-            <router-link to="/AboutComponent">About</router-link>
-          </li>
-          <li>
-            <router-link to="/QualificationComponent">Careers</router-link>
-          </li>
-          <li>
-            <router-link to="/ContactComponent">Contact</router-link>
-          </li>
-          <li>
-            <router-link to="/WhyUs">Why us</router-link>
-          </li>
-          <li>
-            <router-link to="/ServicesComponent">services</router-link>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <router-link class="navbar-brand" to="/home">MaishaCare</router-link>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          @click="showMenu = !showMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" :class="{ show: showMenu }" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <router-link class="nav-link" to="/home">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/about">About</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/qualification">Careers</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/contact">Contact</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/Why-Us">Why Us</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/services">Services</router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-  </template>
-  
-  <script>
-  export default {
-    name: 'HeaderComponent',
-    metaInfo: {
-    title: 'maisha home care',
-    meta: [
-      { name: 'description', content: 'best home nursing care in kenya' }
-    ]
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'HeaderComponent',
+  data() {
+    return {
+      showMenu: false,
+    };
   },
-    data() {
-      return {
-        showMenu: false
-      };
-    }
-  };
-  </script>
-  
-  <style>
-  nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 20px;
-  }
-  
-  .nav-links ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  
-  .nav-links li {
-    margin-left: 40px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .nav-links li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .burger {
+};
+</script>
+
+<style>
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+}
+
+.logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.burger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav-links {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.mobile-nav-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav-links.active {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
     display: none;
-    cursor: pointer;
-    margin-right: 20px;
   }
-  
-  .burger div {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px;
-    transition: all 0.3s ease;
+
+  .burger {
+    display: block;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .nav-links ul {
-      justify-content: center;
-      align-items: center;
-  
-    }
+
+  .mobile-nav-links {
+    position: static;
+    width: 100%;
   }
-  </style>
-  
+}
+</style>

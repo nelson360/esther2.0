@@ -43,7 +43,7 @@
 <div class="paragraphcare">
     we care for you </div>
 <div class="justify-content-lg-end col text-center">
-    <router-link to="/ContactComponent">
+    <router-link to="/Contact">
         <div class="button-container">
         <button class=" btn btn-primary btn-lg ">REQUEST CALL</button>
         </div>
@@ -81,9 +81,9 @@
                 <hr>
                 Nairobi
                 <hr>
-                +254779477821
+                +254741192882
                 <hr>
-                P.O BOX 4565-00100
+                P.O BOX 456-00100
                 <hr>
                 Kenya
 
@@ -121,7 +121,7 @@ export default {
     margin-right: 20%;
 }
 .firstimage3 {
-    border: 2px;
+    border: 12.5 %;
     border-radius: 15%;
     height: 40%;
     width: 50%;
@@ -132,7 +132,7 @@ export default {
     pointer-events: none;
 }
 .carouselitem1{
-    border: 2px;
+    border: 12.5 %;
     height: 20%;
     width: 80%;
     border-radius: 10%;
@@ -144,7 +144,7 @@ export default {
 
 }
 .carouselitem2{
-    border: 2px;
+    border: 12.5 %;
     height: 40%;
     border-radius: 10%;
     display: block;
@@ -154,7 +154,7 @@ export default {
 
 }
 .carouselitem3{
-    border: 2px;
+    border: 12.5 %;
     height: 20%;
     width: 35%;
     border-radius: 10%;
@@ -162,7 +162,7 @@ export default {
     pointer-events: none;
 }
 .firstimage3doc {
-    border: 2px;
+    border: 12.5 %;
     border-radius: 15%;
     height: 35%;
     width: 25%;
@@ -170,7 +170,7 @@ export default {
 }
 
 .carouselitem {
-    border: 2px;
+    border: 12.5 %;
     border-radius: 10%;
     justify-content: center;
     align-items: center;
@@ -178,6 +178,26 @@ export default {
     height: 70%;
     width: 60%;
 
+}.carouselitem2 {
+    border: 12.5%;
+    border-radius: 10%;
+    max-height: 40%; /* Set a maximum height to prevent images from becoming too large */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    max-width: 100%; /* Make the image responsive */
+}
+
+.firstimage3 {
+    border: 12.5%;
+    border-radius: 15%;
+    max-height: 40%; /* Set a maximum height to prevent images from becoming too large */
+    max-width: 50%; /* Make the image responsive */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
 }.imagesize{
     width:200px ;
     height: 200px;

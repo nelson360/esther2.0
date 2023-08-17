@@ -1,10 +1,16 @@
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Book -->
-
-  <text x="200" y="150" text-anchor="middle" font-size="80">&#x1F4D6;</text>
+  <!-- Hospital Building -->
+  <rect x="120" y="60" width="160" height="160" fill="#E8F1F9"/>
+  <rect x="140" y="40" width="120" height="20" fill="#C9DBED"/>
+  <rect x="180" y="80" width="40" height="20" fill="#C9DBED"/>
+  <rect x="160" y="100" width="80" height="120" fill="#C9DBED"/>
   
-  <!-- Ovals -->
-  <ellipse cx="100" cy="30" rx="80" ry="40" fill="#FFD1B8"/>
-  <ellipse cx="200" cy="30" rx="80" ry="40" fill="#FFE4B8"/>
-  <ellipse cx="300" cy="30" rx="80" ry="40" fill="#FFF7B8"/>
+  <!-- Medical Cross -->
+  <rect x="160" y="110" width="80" height="20" fill="#EC7063"/>
+  <rect x="190" y="80" width="20" height="120" fill="#EC7063"/>
+  
+  <!-- Circles -->
+  <circle cx="100" cy="200" r="50" fill="#FFD1B8"/>
+  <circle cx="200" cy="200" r="50" fill="#FFE4B8"/>
+  <circle cx="300" cy="200" r="50" fill="#FFF7B8"/>
 </svg>

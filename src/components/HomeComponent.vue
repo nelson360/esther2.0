@@ -1,9 +1,11 @@
 <template>
+<HeaderComponent/>
 <BodyBody />
 <FooterComponent />
 </template>
 
 <script>
+import HeaderComponent from '/src/components/HeaderComponent.vue';
 import BodyBody from './BodyBody.vue';
 import FooterComponent from '/src/components/FooterComponent.vue'
 
@@ -17,6 +19,7 @@ export default {
   },
   components: {
         BodyBody,
+        HeaderComponent,
         FooterComponent
     }
 }

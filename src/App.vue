@@ -1,6 +1,4 @@
 <template>
-<HomeComponent />
-
 <div id="nav">
     <v-app>
         <RouterView />
@@ -8,9 +6,8 @@
 
 </div>
 </template>
-
 <script>
-import HomeComponent from './components/HeaderComponent.vue'
+
 export default {
     name: 'App',
     metaInfo: {
@@ -19,11 +16,9 @@ export default {
       { name: 'description', content: 'Find the best things in Kenya here.' }
     ]
   },
-    components: {
-        HomeComponent,
-    },
+  
      mounted() {
-    this.$router.push({ name: 'ServicesComponent' })
+    this.$router.push({ name: 'HomeComponent' })
   },
 }
 </script>
@@ -32,5 +27,15 @@ export default {
 nav {
     position: relative;
     height: top;
+}
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 </style>
