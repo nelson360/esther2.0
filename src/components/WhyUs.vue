@@ -62,7 +62,7 @@
     <!-- Copyright -->
     <div class="footer bg-dark text-white py-3">
       <div class="container text-center">
-        © 2023 Copyright: <a href="/"> maishacare.com</a>
+        © 2023 Copyright:<a href="/">maishahomecare.com</a>
       </div>
     </div>
     <!-- Copyright -->

@@ -10,6 +10,17 @@
       <div class="content">To be a regional, national, and international leader in nursing care and services.</div>
     </div>
   </div>
+  <section>
+    <div class="footer">
+      <!-- Footer -->
+      <footer class="page-footer font-small special-color-dark pt-4 mt-auto">
+        <div class="container text-center">
+          <p>&copy; 2023 maishahomecare.com</p>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
+  </section>
 </template>
 
 <script>

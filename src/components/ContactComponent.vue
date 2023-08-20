@@ -8,7 +8,7 @@
       <!-- Footer -->
       <footer class="page-footer font-small special-color-dark pt-4 mt-auto">
         <div class="container text-center">
-          <p>&copy; 2023 maishacare.com</p>
+          <p>&copy; 2023 maishahomecare.com</p>
         </div>
       </footer>
       <!-- Footer -->

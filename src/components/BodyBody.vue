@@ -77,13 +77,13 @@
 
             <!-- Grid column -->
             <div class="col-md-3 mb-md-0 mb-3">
-                Nairobi City Ave, City Centre
+                Mega Plaza,Oginga Odinga street
                 <hr>
-                Nairobi
+                Kisumu
                 <hr>
                 +254741192882
                 <hr>
-                P.O BOX 456-00100
+                P.O BOX 456-40100
                 <hr>
                 Kenya
 
@@ -93,7 +93,7 @@
     </div>
 
     <div class="footer-copyright text-center py-3">© 2023 Copyright:
-        <a href="/">MaishaCare.com</a>
+        <a href="/">MaishaHomeCare.com</a>
     </div>
 
 </footer>
@@ -121,7 +121,7 @@ export default {
     margin-right: 20%;
 }
 .firstimage3 {
-    border: 12.5 %;
+    border: 12.5%;
     border-radius: 15%;
     height: 40%;
     width: 50%;
@@ -132,7 +132,7 @@ export default {
     pointer-events: none;
 }
 .carouselitem1{
-    border: 12.5 %;
+    border: 12.5%;
     height: 20%;
     width: 80%;
     border-radius: 10%;
@@ -144,7 +144,7 @@ export default {
 
 }
 .carouselitem2{
-    border: 12.5 %;
+    border: 12.5%;
     height: 40%;
     border-radius: 10%;
     display: block;
@@ -154,7 +154,7 @@ export default {
 
 }
 .carouselitem3{
-    border: 12.5 %;
+    border: 12.5%;
     height: 20%;
     width: 35%;
     border-radius: 10%;
@@ -162,7 +162,7 @@ export default {
     pointer-events: none;
 }
 .firstimage3doc {
-    border: 12.5 %;
+    border: 12.5%;
     border-radius: 15%;
     height: 35%;
     width: 25%;
@@ -170,15 +170,15 @@ export default {
 }
 
 .carouselitem {
-    border: 12.5 %;
+    border: 12.5%;
     border-radius: 10%;
     justify-content: center;
     align-items: center;
     align-items: center;
     height: 70%;
-    width: 60%;
-
-}.carouselitem2 {
+    width: 60%;}
+    
+    .carouselitem2 {
     border: 12.5%;
     border-radius: 10%;
     max-height: 40%; /* Set a maximum height to prevent images from becoming too large */
@@ -230,8 +230,8 @@ export default {
     font-size: 2em;
     text-align: center;
 }.difre{
-    color: blue;
+    color: rgb(241, 241, 248);
 }.fredi{
-    color: yellow;
+    color: rgb(88, 21, 27);
 }
 </style>
